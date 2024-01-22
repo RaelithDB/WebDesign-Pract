@@ -9,7 +9,7 @@
 
 
       
-      <div class="div">
+      <nav class="navbar">
         <div class="logo">
           <img
             loading="lazy"
@@ -22,17 +22,20 @@
             class="img-2"
           />
         </div>
-        <div class="div-3">
+        <ul class="navbar-menu">
           
-            <div class="div-4">Home</div>
-            <div class="div-5">About us</div>
-            <div class="div-6">Service</div>
-            <div class="div-7">Page</div>
-            <div class="div-8">Blog</div>
-
-        </div>
-        <span class="span-5">Contact us</span>
-      </div>
+            <div class="navbar-item">Home</div>
+            <div class="navbar-item">About us</div>
+            <div class="navbar-item">Service</div>
+            <div class="navbar-item">Page</div>
+            <div class="navbar-item">Blog</div>
+            
+        </ul>
+        
+        <div class="span-5">Contact us</div>
+        <button style="background: url(images/menu-button.svg);" class="navbar-toggle">....</button>
+        
+      </nav>
 
 
 
@@ -752,7 +755,7 @@
           padding-left: 20px;
         }
       }
-      .div {
+      .navbar {
         align-self: center;
         display: flex;
         width: 100%;
@@ -761,7 +764,7 @@
         gap: 20px;
       }
       @media (max-width: 991px) {
-        .div {
+        .navbar {
           max-width: 100%;
           flex-wrap: wrap;
         }
@@ -791,7 +794,7 @@
         max-width: 100%;
         margin: auto 0;
       }
-      .div-3 {
+      .navbar-menu {
         align-self: center;
         display: flex;
         justify-content: space-between;
@@ -799,42 +802,49 @@
         margin: auto 0;
       }
       @media (max-width: 991px) {
-        .div-3 {
+        .navbar-menu {
           max-width: 100%;
           flex-wrap: wrap;
         }
       }
+      
+      
+      .navbar-toggle {
+      display: none;
+      background-color: transparent;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    @media (max-width: 991px) {
+      .navbar-menu {
+        display: none;
+      }
+      
+      .navbar-toggle {
+        display: block;
+      }
+      
+      .navbar-menu.active {
+        display: flex;
+      }
+    }
+   
       .span-2 {
         display: flex;
         justify-content: space-between;
         gap: 20px;
       }
-      .div-4 {
-        color: var(--Greyscale-White, #fff);
-        font: 500 16px/28px Chakra Petch, -apple-system, Roboto, Helvetica,
-          sans-serif;
-      }
-      .div-5 {
-        color: var(--Greyscale-White, #fff);
-        font: 300 16px/28px Chakra Petch, -apple-system, Roboto, Helvetica,
-          sans-serif;
-      }
-      .div-6 {
-        color: var(--Greyscale-White, #fff);
-        font: 300 16px/28px Chakra Petch, -apple-system, Roboto, Helvetica,
-          sans-serif;
-      }
+      
+     
       .span-3 {
         align-self: center;
         display: flex;
         gap: 7px;
         margin: auto 0;
       }
-      .div-7 {
-        color: var(--Greyscale-White, #fff);
-        font: 300 16px/175% Chakra Petch, -apple-system, Roboto, Helvetica,
-          sans-serif;
-      }
+      
       .img-3 {
         aspect-ratio: 1;
         object-fit: contain;
@@ -850,7 +860,7 @@
         gap: 7px;
         margin: auto 0;
       }
-      .div-8 {
+      .navbar-item {
         color: var(--Greyscale-White, #fff);
         font: 300 16px/175% Chakra Petch, -apple-system, Roboto, Helvetica,
           sans-serif;
@@ -877,6 +887,7 @@
         .span-5 {
           white-space: initial;
           padding: 0 20px;
+          
         }
       }
       .div-9 {
@@ -3939,10 +3950,17 @@ line-height: 20px; /* 166.667% */
      <script>
       const toggleButton = document.querySelector('.navbar-toggle');
       const navbarMenu = document.querySelector('.navbar-menu');
+      
   
       toggleButton.addEventListener('click', () => {
         navbarMenu.classList.toggle('active');
       });
+      const navbarMenu2 = document.querySelector('.navbar-menu2');
+  
+      toggleButton.addEventListener('click', () => {
+        navbarMenu2.classList.toggle('active');
+      });
+      
     </script>
   </body>
 </html>

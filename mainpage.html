@@ -6,8 +6,11 @@
   </head>
   <body>
     <span class="span">
+
+
+      
       <div class="div">
-        <div class="div-2">
+        <div class="logo">
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/5fd0259a7f9bb23ef2feb0c74ebe1a67e0a907b7727a009a377b84e26ac4106e?apiKey=b6bdd572398d4fa4b008ba40c95172ed&"
@@ -20,30 +23,20 @@
           />
         </div>
         <div class="div-3">
-          <span class="span-2">
+          
             <div class="div-4">Home</div>
             <div class="div-5">About us</div>
             <div class="div-6">Service</div>
-          </span>
-          <span class="span-3">
             <div class="div-7">Page</div>
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/44e8a9b5f8c3d28b98818bb598c86b656067b023ea1a4a6b47f734c1a8af6a89?apiKey=b6bdd572398d4fa4b008ba40c95172ed&"
-              class="img-3"
-            />
-          </span>
-          <span class="span-4">
             <div class="div-8">Blog</div>
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/44e8a9b5f8c3d28b98818bb598c86b656067b023ea1a4a6b47f734c1a8af6a89?apiKey=b6bdd572398d4fa4b008ba40c95172ed&"
-              class="img-4"
-            />
-          </span>
+
         </div>
         <span class="span-5">Contact us</span>
       </div>
+
+
+
+
       <div class="div-9">
         <div class="div-10">
           <div class="column">
@@ -773,7 +766,7 @@
           flex-wrap: wrap;
         }
       }
-      .div-2 {
+      .logo {
         align-self: center;
         display: flex;
         gap: 4px;
@@ -3943,6 +3936,13 @@ line-height: 20px; /* 166.667% */
         }
       }
     </style>
-    
+     <script>
+      const toggleButton = document.querySelector('.navbar-toggle');
+      const navbarMenu = document.querySelector('.navbar-menu');
+  
+      toggleButton.addEventListener('click', () => {
+        navbarMenu.classList.toggle('active');
+      });
+    </script>
   </body>
 </html>

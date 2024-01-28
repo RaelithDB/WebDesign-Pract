@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --body-body-1: "Chakra Petch";
+
+  /* font sizes */
+  --body-body-1-size: 16px;
+  --heading-heading-3-size: 40px;
+  --font-size-5xl: 24px;
+  --font-size-13xl: 32px;
+  --caption-caption-3-size: 10px;
+  --heading-heading-8-size: 20px;
+  --body-body-4-size: 12px;
+  --caption-caption-2-size: 14px;
+
+  /* Colors */
+  --greyscale-black-100: #18181b;
+  --color-gray-100: rgba(255, 255, 255, 0.15);
+  --color-gray-200: rgba(255, 255, 255, 0.3);
+  --greyscale-white: #fff;
+  --main-colors-linear: #0cbaf1;
+  --greyscale-grey-2: #d1d1d1;
+
+  /* Gaps */
+  --gap-base: 16px;
+  --gap-13xl: 32px;
+  --gap-xl: 20px;
+  --gap-5xs: 8px;
+  --gap-9xs: 4px;
+  --gap-mid: 17px;
+  --gap-xs: 12px;
+  --gap-5xl: 24px;
+  --gap-mini: 15px;
+  --gap-7xs-8: 5.8px;
+
+  /* Paddings */
+  --padding-10xs: 3px;
+  --padding-6xs: 7px;
+  --padding-21xl: 40px;
+  --padding-xl: 20px;
+  --padding-7xl: 26px;
+  --padding-12xs: 1px;
+  --padding-sm: 14px;
+  --padding-12xl: 31px;
+  --padding-18xl: 37px;
+  --padding-7xs: 6px;
+  --padding-9xs: 4px;
+  --padding-base-7: 16.7px;
+  --padding-11xs-4: 1.4px;
+  --padding-8xs: 5px;
+  --padding-5xs-2: 7.2px;
+  --padding-63xl: 82px;
+  --padding-4xl: 23px;
+  --padding-xs: 12px;
+
+  /* Border radiuses */
+  --br-xs-5: 11.5px;
+}

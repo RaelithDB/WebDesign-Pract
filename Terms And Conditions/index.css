@@ -828,7 +828,6 @@
 }
 .subscribe-to-our {
   margin: 0;
-  height: 116px;
   width: 520px;
   position: relative;
   font-size: inherit;
@@ -1598,5 +1597,14 @@ cursor: pointer;
     white-space: initial;
     padding: 0 20px;
     
+  }
+}
+
+
+
+@media (max-width: 750px){
+  .img-port{
+    width: 100px;  
+height: auto;  
   }
 }

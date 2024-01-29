@@ -16,9 +16,9 @@ FAQ - pretty much done.
 
 Article - pretty much done.
 
-Terms and conditions, Privacy Policy - Доделать сайзинг картинок для мобильной версии.
+Blog - pretty much done.
 
-Blog - исправить баг с картинкой. В остальном готово.
+Terms and conditions, Privacy Policy - pretty much done.
 
 Contact us - исправить баг с картинкой. Добавить карту.
 

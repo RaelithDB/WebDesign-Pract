@@ -8,6 +8,8 @@ About-us - Pretty much done.
 
 Our Service - pretty much done.
 
+404 - pretty much done
+
 Blog - исправить баг с картинкой. В остальном готово.
 
 Article - Доделать отступы. Исправить верхнюю картинку.

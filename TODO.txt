@@ -14,11 +14,11 @@ Our team - pretty much done.
 
 FAQ - pretty much done.
 
-Terms and conditions - Доделать сайзинг картинок для мобильной версии.
+Article - pretty much done.
+
+Terms and conditions, Privacy Policy - Доделать сайзинг картинок для мобильной версии.
 
 Blog - исправить баг с картинкой. В остальном готово.
-
-Article - Доделать отступы. Исправить верхнюю картинку.
 
 Contact us - исправить баг с картинкой. Добавить карту.
 

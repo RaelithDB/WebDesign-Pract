@@ -315,23 +315,10 @@
 .vr-design-is,
 .with-vr-design {
   align-self: stretch;
-  height: 84px;
   position: relative;
   line-height: 28px;
   font-weight: 300;
   display: inline-block;
-}
-.clients-can-also,
-.moreover-vr-design,
-.vr-design-is {
-  height: 112px;
-}
-.clients-can-also,
-.moreover-vr-design {
-  height: 84px;
-}
-.moreover-vr-design {
-  height: 56px;
 }
 .image1,
 .the-benefits-of-v-r-design-in {
@@ -914,7 +901,6 @@
   max-width: 100%;
 }
 .the-benefits-of {
-  height: 84px;
   flex: 1;
   position: relative;
   line-height: 28px;
@@ -933,7 +919,6 @@
   max-width: 100%;
 }
 .in-conclusion-vr {
-  height: 112px;
   flex: 1;
   position: relative;
   line-height: 28px;
@@ -1053,7 +1038,6 @@
 }
 .subscribe-to-our {
   margin: 0;
-  height: 116px;
   width: 520px;
   position: relative;
   font-size: inherit;

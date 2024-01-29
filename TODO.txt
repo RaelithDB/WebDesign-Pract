@@ -8,7 +8,9 @@ About-us - Pretty much done.
 
 Our Service - pretty much done.
 
-404 - pretty much done
+404 - pretty much done.
+
+Our team - pretty much done.
 
 Blog - исправить баг с картинкой. В остальном готово.
 
@@ -20,7 +22,6 @@ Detail service - исправить мобильную версию
 
 Faq, Terms and conditions - доработать.
 
-Our team - исправить бэкграунд имеджи, исправить нижнюю панель
 
 
 

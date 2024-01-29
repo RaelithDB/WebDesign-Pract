@@ -251,6 +251,7 @@
   justify-content: flex-start;
   box-sizing: border-box;
   max-width: 100%;
+  
 }
 .title1 {
   width: 1240px;
@@ -265,6 +266,10 @@
   font-size: var(--heading-heading-1-size);
   color: var(--greyscale-white);
   font-family: var(--body-body-1);
+  background-image: url(./public/clip-path-group@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 .clip-path-group1 {
   width: 736px;
@@ -383,7 +388,7 @@
   box-sizing: border-box;
   position: relative;
   gap: var(--gap-base);
-  background-image: url(./public/image@2x.png);
+  background-image: url(./public/photo-ceo.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -485,7 +490,7 @@
   justify-content: flex-end;
   padding: var(--padding-7xl);
   position: relative;
-  background-image: url(./public/image@2x.png);
+  background-image: url(./public/photo-vrdev.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -556,7 +561,7 @@
   padding: var(--padding-7xl) var(--padding-xl) var(--padding-7xl)
     var(--padding-2xl);
   position: relative;
-  background-image: url(./public/image@2x.png);
+  background-image: url(./public/photo-vrartist.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -625,7 +630,7 @@
   justify-content: flex-end;
   padding: var(--padding-7xl) var(--padding-xl) var(--padding-7xl) 24px;
   position: relative;
-  background-image: url(./public/image@2x.png);
+  background-image: url(./public/photo-3ddesigner.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -701,7 +706,7 @@
   justify-content: flex-end;
   padding: var(--padding-7xl) 54px var(--padding-7xl) var(--padding-xl);
   position: relative;
-  background-image: url(./public/image@2x.png);
+  background-image: url(./public/photo-uxdev.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -1327,7 +1332,7 @@
   justify-content: flex-start;
 }
 .footer {
-  align-self: stretch;
+  align-self: center;
   overflow: hidden;
   flex-direction: row;
   padding: var(--padding-10xs) 0 var(--padding-6xs);

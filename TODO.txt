@@ -22,6 +22,8 @@ Terms and conditions, Privacy Policy - pretty much done.
 
 Contact us - исправить баг с картинкой. Добавить карту.
 
+Main-page - Доделать артикли, разделить структуру, исправить поле подписки.
+
 Detail service - исправить мобильную версию
 
 

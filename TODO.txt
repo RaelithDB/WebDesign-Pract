@@ -20,11 +20,12 @@ Blog - pretty much done.
 
 Terms and conditions, Privacy Policy - pretty much done.
 
-Contact us - исправить баг с картинкой. Добавить карту.
+Contact us - pretty much done
 
-Main-page - Доделать артикли, разделить структуру, исправить поле подписки.
+Main-page - fixed
 
-Detail service - исправить мобильную версию
+Detail service - fixed
+
 
 
 

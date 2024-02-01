@@ -723,10 +723,7 @@
   width: 100%;
   z-index: 2;
   object-fit: contain;
-  position: absolute;
-  left: 88px;
-  top: 16px;
-  transform: scale(1.354);
+
 }
 .wrapper-image {
   height: 686px;
@@ -829,7 +826,6 @@
 }
 .subscribe-to-our {
   margin: 0;
-  height: 116px;
   width: 520px;
   position: relative;
   font-size: inherit;
